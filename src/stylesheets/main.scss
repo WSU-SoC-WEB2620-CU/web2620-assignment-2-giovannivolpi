@@ -1,16 +1,215 @@
-body {
-    margin: 0;
-    display: flex;
-    height: 100vh;
+
+@media screen and (min-width: 500px){
+  body {
+    width: 80%;
+    margin: 0 auto 1rem;
+    text-align: center;
   }
 
-  .flex-container {
+  .nav {
     display: flex;
-    flex: 1;
-    background-color: #ffcc00;
+    flex-direction: row;
   }
 
-  .flex-item {
-    flex: 1;
-    background-color: #33cc33; 
+  .bar {
+    background-color: blue;
+    height: 40px;
   }
+
+  .nav1, .nav2, .nav3, .nav4, .nav5 {
+    background-color: red;
+    height: 25px;
+    margin: 5px;
+  }
+
+  .box {
+    background-color: blue;
+    height: 150px;
+    margin: 5px;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .item {
+    background-color: blue;
+    height: 20px;
+    margin: 5px;
+    flex: 1;
+  }
+
+  .rectangle {
+    background-color: blue;
+    height: 200px;
+    margin: 5px;
+    flex: 2;
+  }
+
+  .rectangle1 {
+    background-color: red;
+    height: 200px;
+    margin: 5px;
+    flex: 2;
+  }
+
+  .last-content {
+    background-color: blue;
+    height: 50px;
+  }
+}
+
+
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  body {
+    width: 80%;
+    margin: 0 auto 1rem;
+    text-align: center;
+  }
+
+  .nav {
+    display: flex;
+  }
+
+  .bar {
+    background-color: blue;
+    height: 40px;
+  }
+
+  .nav1, .nav2, .nav3, .nav4, .nav5 {
+    flex-direction: row;
+    background-color: red;
+    height: 25px;
+    margin: 5px;
+  }
+
+  .box {
+    background-color: blue;
+    height: 150px;
+    margin: 5px;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .item {
+    background-color: blue;
+    height: 20px;
+    margin: 5px;
+    flex: 1;
+  }
+
+  .rectangle {
+    background-color: blue;
+    height: 200px;
+    margin: 5px;
+    flex: 2;
+  }
+
+  .rectangle1 {
+    background-color: red;
+    height: 200px;
+    margin: 5px;
+    flex: 2;
+  }
+
+  .last-content {
+    background-color: blue;
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    width: 80%;
+    margin: 0 auto 1rem;
+    text-align: center;
+  }
+
+  .nav {
+    display: flex;
+  }
+
+  .bar {
+    background-color: blue;
+    height: 40px;
+  }
+
+  .nav1, .nav2, .nav3, .nav4, .nav5 {
+    flex-direction: row;
+    background-color: red;
+    height: 25px;
+    margin: 5px;
+  }
+
+  .box {
+    background-color: blue;
+    height: 150px;
+    margin: 5px;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .item {
+    background-color: blue;
+    height: 20px;
+    margin: 5px;
+    flex: 1;
+  }
+
+  .rectangle {
+    background-color: blue;
+    height: 200px;
+    margin: 5px;
+    flex: 2;
+  }
+
+  .rectangle1 {
+    background-color: red;
+    height: 200px;
+    margin: 5px;
+    flex: 2;
+  }
+
+  .last-content {
+    background-color: blue;
+    height: 50px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
